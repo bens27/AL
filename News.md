@@ -1,3 +1,80 @@
+# 2026-05-06 Business Central 2026 release wave 1 launch edition (BCLE) content for developers
+
+The Business Central 2026 release wave 1 went live on April 1st and with it the launch edition on YouTube was kicked off with videos on the latest innovations for Business Central. These videos contain high-quality content presented by product leaders to enable you to learn how to take Business Central to the next level as a developer. Visit the [Business Central YouTube channel](https://aka.ms/bcYoutube) to see what's available. We've produced a lot of content, and we guarantee you that it'll be worth the time you invest in it.
+
+If you're a developer, we'd suggest the following titles to get you started on the latest additions and improvements:
+
+[What's new: AL Language](https://www.youtube.com/watch?v=nMiLzdfidos)  
+[What's new: Running tests from Visual studio code](https://www.youtube.com/watch?v=Rvgt_VXFr1I)  
+[What's new: Enhanced Analysis mode](https://www.youtube.com/watch?v=Afv-r-eDt90)  
+[What's new: AI development toolkit](https://www.youtube.com/watch?v=juUBVPfIp8A)  
+[What's new: Enhanced document reporting](https://www.youtube.com/watch?v=mS6NDhj20yI)  
+[What's new: Server and Database](https://www.youtube.com/watch?v=2u5_F9Ztt7U)  
+[What's new: Enhanced index management](https://www.youtube.com/watch?v=IAacWsvav1E)  
+
+
+If you're interested in AI and Agents, this release introduces some exciting new agent capabilities. Consider diving into the topic with these sessions:
+
+[What's new: Business Central integration with Microsoft Copilot Studio](https://www.youtube.com/watch?v=GK6hM-nBYZk)  
+[What's new: Enhanced MCP Server](https://www.youtube.com/watch?v=0WAOtNaKjws)  
+[What's new: BC-Bench](https://www.youtube.com/watch?v=XGEDwzIZQj4)  
+[Introducing: Expense Agent in Business Central](https://www.youtube.com/watch?v=egE6UdOfar0)  
+[Introducing: Web App for Expense Agent](https://www.youtube.com/watch?v=q-udoJPGUKE)  
+[Introducing: Expense Management](https://www.youtube.com/watch?v=pjML7lXSsd0)  
+[Introducing: Approvals for the Expense Agent](https://www.youtube.com/watch?v=qZALauRY_So)  
+[What's new: Payables Agent](https://www.youtube.com/watch?v=OvI9jaA1mJY)  
+
+
+Learn about the latest usability and productivity improvements in the Business Central web client:
+
+[What's new: Business Central user experience and productivity](https://www.youtube.com/watch?v=xJ8gYzvWnTI)  
+
+
+In this release wave, we continue to expand reporting and analytics capabilities. If that is your thing, check out these videos:
+
+[What's new: Enhanced Power BI and Excel with Business Central](https://www.youtube.com/watch?v=DVgclv3alZU)  
+[What's new: Enhanced Financial Reporting](https://www.youtube.com/watch?v=uxQRfChp96c)  
+[What's new: Enhanced Financial analytics](https://www.youtube.com/watch?v=fxrVyBD8UoU)  
+[What's new: Enhanced sales analytics](https://www.youtube.com/watch?v=fJGY6d-2lO8)  
+[What's new: Enhanced inventory analytics](https://www.youtube.com/watch?v=qCqe8uw8Od4)  
+[What's new: Enhanced subscription billing analytics](https://www.youtube.com/watch?v=cnIJZ2Ozcxs)  
+[What's new: Enhanced IT Audit reporting](https://www.youtube.com/watch?v=YbuO1n_Lqj0)  
+[What's new: Enhanced demo data](https://www.youtube.com/watch?v=q2Fu_dqn2qo)  
+
+For content about environment management and migrations, we suggest you watch the following video:
+
+[What's new: Admin Center MCP Server](https://www.youtube.com/watch?v=U1dAdtUjidc) 
+[What's new: Cloud Migration tooling](https://www.youtube.com/watch?v=6bX7Ab4KYMA)  
+[What's new: Cloud for Sovereignty](https://www.youtube.com/watch?v=n9HaH2dZUaU)  
+
+Want to learn more about E-Documents and electronic invoices? Then consider this video:
+
+[What's new: E-Documents](https://www.youtube.com/watch?v=oL8OlbEoUnQ)  
+
+Watch content about new integration functionality and the Shopify connector in these videos:
+
+[What's new: APIs for permissions, approvals, and documents](https://www.youtube.com/watch?v=dlJYM5ruvUc)  
+[What's new: Shopify connector (overview)](https://www.youtube.com/watch?v=B-pxLlb-UN0)  
+[What's new in processing of presentment currencies in Shopify](https://www.youtube.com/watch?v=NMO822Jf_4E)  
+[What's new in product information management in Shopify connector](https://www.youtube.com/watch?v=6vHJQggN4F4)  
+
+This release wave introduces some important new capabilities in finance and supply chain. Check out these videos for more:
+
+[Introducing: Self-billing invoices](https://www.youtube.com/watch?v=8VRtBLNAOiI)  
+[Introducing: Withholding Taxes](https://www.youtube.com/watch?v=d4mYltz4Zwg)  
+[What's new: Excise Taxes](https://www.youtube.com/watch?v=Cj_n5x3gN_Y)  
+[What's new: Fixed Assets](https://www.youtube.com/watch?v=LKt0K-EdiX0)  
+[What's new: Matching purchase invoices to order and receipt lines](https://www.youtube.com/watch?v=kDiDMPEaU0E)  
+[What's new in supply chain management (overview)](https://www.youtube.com/watch?v=sqjb_gsXqM8)  
+[What's new: Drop shipments](https://www.youtube.com/watch?v=DJ3LPRxn27g)  
+[Introducing: Quality Management](https://www.youtube.com/watch?v=m8-7-JKq4dc)  
+
+Want to learn more about the sustainability module? Then consider this video:
+
+[What's new: Sustainability](https://www.youtube.com/watch?v=lqVWc-Yuots)  
+
+We hope you'll find this useful. If you have any feedback, please let us know.
+
 # 2026-02-27 Envision, design and code Business Central agents with the AI development toolkit (public preview)
 
 With the minor version 27.4 update you can now envision, design, and code Business Central agents using the AI development toolkit.
