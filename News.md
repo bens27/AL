@@ -1,3 +1,27 @@
+# 2026-05-21 AL Language Server now available outside Visual Studio Code (Pre-release)
+
+The AL Language extension pre-release now ships a standalone Language Server Protocol (LSP) server — the same language intelligence that powers Visual Studio Code, made available to autonomous AI agents, alternative editors, and custom tooling.
+
+## Why this matters
+
+AI agents working with AL code — whether they're refactoring, navigating symbols, or building extensions — need more than text search. The AL LSP server gives them semantic understanding: go-to-definition, find-references across projects, rename, completions, type hierarchy, and more. It resolves `internalsVisibleTo` and `propagateDependencies` relationships correctly, which means agents make fewer mistakes and use less context than those relying on grep-style tools.
+
+## How it works
+
+ALTool exposes the server through a new `launchlspserver` command. An agent or editor spawns ALTool as a child process and communicates over stdio using JSON-RPC — exactly like Visual Studio Code does internally, but without the editor.
+
+```shell
+altool launchlspserver "<path-to-project>" --packagecachepath "<symbols>"
+```
+
+Multi-project workspaces are supported: pass multiple project folders or point to a `.code-workspace` file, and the server resolves cross-project dependencies automatically.
+
+Learn more in [AL LSP](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-tool#al-lsp?wt.mc_id=d365bc_inproduct_alextension).
+
+Try it with GitHub Copilot agent mode, Claude Code, Cursor, or any LSP-compatible client.
+
+We hope this helps! Please share your feedback and ideas for improvement.
+
 # 2026-05-11 Agents in Business Central move to GPT-5.3-chat
 
 From May through June, agents in Business Central are upgrading to GPT-5.3-chat as the default model. This update rolls out gradually to environments across all regions.
