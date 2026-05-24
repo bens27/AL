@@ -1,0 +1,11 @@
+# Generated AL packages and symbols
+.alpackages/
+*.app
+
+# Build output
+highlightjs_al/dist/
+highlightjs_al/node_modules/
+
+# VS Code / Cursor user-specific config
+.vscode/launch.json
+.vscode/tasks.json

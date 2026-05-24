@@ -6,10 +6,14 @@ The main purpose of this repository is to track issues regarding the latest vers
 
 ## Documentation
 
-For documentation about using the [AL Language](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al) to extend Dynamics 365 Business Central, read some of our topics on [Microsoft Dynamics 365 Business Central docs](https://docs.microsoft.com/en-us/dynamics365/business-central/):  
-• [Getting Started](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-get-started)  
-• [Building Your First Sample Extension](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-extension-example)  
-• [Developer Reference](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)  
+For documentation about using the [AL Language](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al) to extend Dynamics 365 Business Central, read some of our topics on [Microsoft Dynamics 365 Business Central docs](https://docs.microsoft.com/en-us/dynamics365/business-central/): 
+• [Getting Started](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-get-started) 
+• [Building Your First Sample Extension](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-extension-example) 
+• [Developer Reference](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview) 
+
+## Cursor IDE
+
+This repository includes configuration for [Cursor](https://cursor.com) — an AI-powered editor compatible with VS Code extensions. See [CURSOR.md](CURSOR.md) for setup instructions, including how to install the AL Language extension and use AI rules for AL development.
 
 ## Bugs and feature requests
 

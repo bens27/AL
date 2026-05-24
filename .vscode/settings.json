@@ -1,0 +1,25 @@
+{
+  "files.associations": {
+    "*.al": "al"
+  },
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "[al]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "al.enableCodeAnalysis": true,
+  "al.codeAnalyzers": [
+    "${AppSourceCop}",
+    "${CodeCop}",
+    "${UICop}"
+  ],
+  "search.exclude": {
+    "**/.alpackages": true,
+    "**/*.app": true
+  },
+  "files.exclude": {
+    "**/.alpackages": true
+  }
+}

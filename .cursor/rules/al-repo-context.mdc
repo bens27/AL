@@ -1,0 +1,29 @@
+---
+description: Context for the Microsoft AL repository structure and samples
+alwaysApply: true
+---
+
+# Microsoft AL Repository Context
+
+This repository tracks issues for the AL Language extension and ships developer resources — not the full AL compiler source.
+
+## Repository Layout
+
+- `samples/` — Business Central extension examples (open a sample folder as workspace root for AL development)
+- `snippets/` — VS Code/Cursor snippet definitions for AL object types
+- `grammar/` — TextMate grammar for AL syntax highlighting
+- `highlightjs_al/` — Highlight.js AL language definition
+- `.github/ISSUE_TEMPLATE/` — Issue templates for bug reports
+
+## Working with Samples
+
+Each sample under `samples/` is a standalone BC extension with its own `app.json`. To develop:
+
+1. Open the sample folder (e.g., `samples/HelloWorld`) as the workspace root
+2. Install the AL Language extension (`ms-dynamics-smb.al`)
+3. Configure `launch.json` with your BC server details
+4. Download symbols via the AL extension
+
+## Issue Reporting
+
+When helping with bugs, direct users to file issues here with: AL extension version, BC version, repro steps, and minimal AL code snippet. See `CONTRIBUTING.md`.

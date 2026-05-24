@@ -1,0 +1,35 @@
+---
+description: Core AL development principles for Business Central extensions
+globs: **/*.al
+alwaysApply: false
+---
+
+# AL Development Core Principles
+
+You are assisting with AL development for Microsoft Dynamics 365 Business Central.
+
+## Architecture
+
+- Follow event-driven extensibility; never modify standard application objects directly
+- Prefer integration events and page/table extensions over base object changes
+- Use `SetLoadFields` before `FindSet`/`Get` when not reading all fields
+- Filter data early; avoid unnecessary loops over large record sets
+
+## Code Quality
+
+- Use 2-space indentation and PascalCase for variables, procedures, and object names
+- Object names max 30 characters (26 for the name itself, reserving space for affixes)
+- File naming: `ObjectName.ObjectType.al` (e.g., `CustomerCard.Page.al`)
+- Add XML documentation to public procedures in codeunits
+- Use `local` procedures for internal logic; keep procedures focused and modular
+
+## Project Context
+
+- Check `app.json` for platform/application version and ID ranges before creating objects
+- Respect the `idRange` in `app.json` when assigning object IDs
+- Only generate test code when explicitly requested
+
+## References
+
+- [AL Guidelines](https://github.com/microsoft/alguidelines)
+- [BC Developer Docs](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)

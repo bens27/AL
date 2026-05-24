@@ -8,7 +8,11 @@
 
 # Temp files
 .vs/
-.vscode/
+
+# User-specific IDE config (shared .vscode/extensions.json and settings.json are tracked)
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/*.code-workspace
 
 # Others
 ~$*
