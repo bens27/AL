@@ -25,6 +25,12 @@ Cursor rules in `.cursor/rules/` are adapted from Microsoft's [Vibe Coding Rules
 
 For the full rule set, see [alguidelines.dev](https://alguidelines.dev/docs/agentic-coding/vibe-coding-rules/).
 
+## Agent Skills
+
+Cursor skills in `.cursor/skills/` provide reusable AL development guidance for the Agent. The `al-development` skill is also installed globally at `~/.cursor/skills/al-development/` so it applies to any BC project on your machine.
+
+Skills are sourced from Microsoft's [Vibe Coding Rules for AL](https://github.com/microsoft/alguidelines/tree/main/content/docs/agentic-coding/vibe-coding-rules). The Agent applies them automatically when working on AL code.
+
 ## Workspace Settings
 
 Shared settings in `.vscode/settings.json` include:
